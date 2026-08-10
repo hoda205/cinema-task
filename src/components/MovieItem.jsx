@@ -1,6 +1,7 @@
 export default function MovieItem({movie, handelWatchlist}) {
   return (
-    <div className="movie-card" >
+    <div className={`movie-card ${movie.soldOut && "sold-out"}`} >
+      {movie.soldOut && <span className="sold-out-badge">Sold Out</span>}
       <img src={movie.posterUrl} className="movie-poster" alt={movie.title} />
       <div className="movie-info">
         <header className="movie-header">

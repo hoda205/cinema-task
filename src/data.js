@@ -10,7 +10,7 @@ const moviesData = [
     soldOut: false,
     rating: 8.8,
     duration: "148 min",
-    inWatchlist: true,
+    inWatchlist: false,
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const moviesData = [
     soldOut: false,
     rating: 9.0,
     duration: "152 min",
-    inWatchlist: true,
+    inWatchlist: false,
   },
   {
     id: 3,
